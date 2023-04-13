@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <!-- FONTE -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/style.css">
+    <!-- PROGRESS BAR -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/scripts.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/f930ca1ef0.js" crossorigin="anonymous"></script>
+    <!-- PARALLAX -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+        <!-- HEADER -->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/logo.png" alt="hdc agency"> BW Treinamento
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggle-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">Sobre nós</a>
+                        <a class="nav-item nav-link" id="services-menu">Seriços</a>
+                        <a class="nav-item nav-link" id="team-menu">Time</a>
+                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+        <!-- MAIN -->
+    <main>
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/banner1.3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Quer um treinamento personalizado?</h2>
+                        <p>Temos um programa eclusivo que se adequa as suas necessidades.</p>
+                        <a href="#" class="main-btn">Saiba Mais</a>
+                    </div>    
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner2.2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Gosta de praticar atividade física?</h2>
+                        <p>Seu treino personalizado na sua modalidade favorita.</p>
+                        <a href="#" class="main-btn">Entre em contato</a>
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Está bucando manutenção do seu site?</h2>
+                        <p>Temos a solução para o seu problema.</p>
+                        <a href="#" class="main-btn">Entre em contato</a>
+                    </div> 
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        <!-- ÁREA-SOBRE -->
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre nós</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/agencia.png" alt="Agência hDC">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Uma solução para os seus problemas</h3>
+                            <p>Nossos treinos são adaptados ao cliente e seu propósito.</p>
+                            <p>Após a especifícação do seu objetivo nossa equipe de profissionais definirão as melhores opções para você</p>
+                            <p>Se você está procurando por um treinamento de alto nível que se concentra na saúde integrada e no bem-estar, o BW é a escolha perfeita para você.</p>
+                            <p>Nossos diferênciais:</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i>Profissionais qualificados.</li>
+                                <li><i class="fas fa-check"></i>Abordagem integrada.</li>
+                                <li><i class="fas fa-check"></i>Utilização de plataformas exclusiva para treinos.</li>
+                                <li><i class="fas fa-check"></i>Suporte pelo Telegram.</li>
+                                <li><i class="fas fa-check"></i>Metodologia própria.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- SERVIÇOS DA EMPRESA -->
+            <div id="service-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Nossas especialidades</h3>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Aplicativos Nativos</h4>
+                            <p>Utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h4>E-commerces</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus nisi officiis sit.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Desingn Criativo</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam consequatur.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fa-brands fa-google"></i>
+                            <h4>Experts em SEO</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum autem culpa saepe.</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Suporte 24/7</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium at dicta quod!</p>
+                        </div>
+                        <div class="col-md-4 service-box">
+                            <i class="fas fa-server"></i>
+                            <h4>Experiência em servidores</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eveniet fuga autem repellendus cumque?</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        <!-- DADOS DA EMPRESA -->
+            <div id="data-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 circle-box">
+                            <div id="circleA"></div>
+                            <p>BMU's Realizados</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleB"></div>
+                            <p>RMU's Realizados</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleC"></div>
+                            <p>Anos de prática</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleD"></div>
+                            <p>Alunos Satisfeitos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- TIME -->
+            <div id="team-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Nosso Time</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/profile1.jpg" class="card-img-top" alt="Img de Perfil 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jhon Doe</h5>
+                                    <p>Software DEV</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/profile2.jpg" class="card-img-top" alt="Img de Perfil 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maria Mariana</h5>
+                                    <p>SEO Consultant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/profile3.jpg" class="card-img-top" alt="Img de Perfil 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Paul Baker</h5>
+                                    <p>Project Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/profile4.jpg" class="card-img-top" alt="Img de Perfil 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Karina katarina</h5>
+                                    <p>UX/UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- TRABALHE CONOSCO -->
+            <div id="apply-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 apply-box" id="company-img"></div>
+                        <div class="col-md-6 apply-box" id="pattern-img">
+                            <h4>Gosta de Desafios?</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, quod!</p>
+                            <p>Clique no botão abaixo e confira os benefícios</p>
+                            <p>Aqui você terá a chance de trabalhar com os melhores profissionais e as melhores tecnologias</p>
+                            <a href="#" class="main-btn" id="apply-btn">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- NEWSLETTER -->
+            <div id="news-area">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Fique por dentro das novidades</h3>
+                    </div>
+                    <p>Assine nossa lista de e-mails, e reçeba conteúdos sobre treinamento</p>
+                    <form action="">
+                        <input type="e-mail" class="form-control" id="email-input" name="email" placeholder="Digite um e-mail">
+                        <input type="submit" id="news-btn" value="Inscrever">
+                    </form>
+                </div>
+            </div>
+            <!-- CALL TO ACTION -->
+            <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p>Para entrar em contato</p>
+                        <button class="main-btn" id="call-btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- RODAPÉ -->
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Entre em contato conosco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue Para:</span>(48)9821-4007</p>
+                        <p><span class="contact-title">Horários:</span>8:00 - 18:00</p>
+                    </div> 
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um e-mail:</span>wagnere08@gmail.com</p>
+                    </div> 
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Venha conhecer a o treinamento:</span> Rua Lorem Ipsum, 1234</p>
+                    </div> 
+                    <div class="col-md-6" id="msg-box">
+                        <p>Ou nos deixe uma menssagem:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email">
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                            <textarea class="form-control" rows="3" placeholder="Sua menssagem..." name="message"></textarea>
+                            <input type="submit" class="main-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="#">hDC Agency</a> &copy; 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- SCRIPTS da página  -->
+    <script src="js/progressbar.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
