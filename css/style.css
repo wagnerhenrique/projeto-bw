@@ -480,3 +480,78 @@ header, .navbar{
         font-size: 16px;
     }
 }
+
+/* repomsividade celular */
+@media(max-width: 425px){
+
+    /* Slider */
+    #main-Slider{
+        margin-top: 90px;
+    }
+
+    #main-Slider .carousel-caption{
+        top: 5%;
+    }
+
+    .carousel-caption h2{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .carousel-caption p{
+        display: none;
+    }
+
+    .carousel-caption .main-btn{
+        font-size: 10px;
+    }
+
+    /* sobre */
+    .main-title{
+        font-size: 30px;
+    }
+
+    #about-area img{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* data */
+    .circle-box{
+        width: 50%;
+    }
+
+    /* team */
+    #team-area .col-md-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    /* apply */
+    #apply-area{
+        height: auto;
+    }
+
+    #company-img{
+        display: none;
+    }
+
+    /* news */
+    #news-area .main-title{
+        font-size: 22px;
+    }
+
+    #news-area p{
+        font-size: 14px;
+    }
+
+    #email-input{
+        width: 80%;
+    }
+
+    /* contact */
+    .contact-box{
+        border: none;
+        margin-bottom: 0;
+    }
+}
