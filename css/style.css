@@ -411,11 +411,11 @@ header, .navbar{
     }
 
     /* Slider */
-    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+    #carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-item{
         height: auto;
     }
 
-    .carousel-caption h2{
+    #carouselExampleIndicators .carousel-caption h2{
         font-size: 35px;
     }
 
@@ -485,16 +485,16 @@ header, .navbar{
 @media(max-width: 425px){
 
     /* Slider */
-    #main-Slider{
+    #carouselExampleIndicators{
         margin-top: 90px;
     }
 
-    #main-Slider .carousel-caption{
+    #carouselExampleIndicators .carousel-caption{
         top: 5%;
     }
 
-    .carousel-caption h2{
-        font-size: 15px;
+    #carouselExampleIndicators .carousel-caption h2{
+        font-size: 28px;
         margin-bottom: 25px;
     }
 
